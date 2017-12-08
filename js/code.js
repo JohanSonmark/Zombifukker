@@ -19,7 +19,7 @@ var gameState;
       });
    }
 
-   $(".GameMenu ul").on("click", "li", function(){
+   $(".GameMenu ul").on("click", "li", function(e){
       var optNbr = $(e.target).attr("data-optNbr");
       var page = zombieFakker[ gameState.currentPage];
       var optionData = page.options[optNbr];
