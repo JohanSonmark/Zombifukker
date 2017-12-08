@@ -28,22 +28,33 @@ nav ul li a{
     border: 2px solid black;
     outline: #4CAF50 solid 10px;
     margin: auto;
-
     text-align: center;
 }
 
 .GameImgStory{
+
     width: 70%;
     padding: 0 5px 0 0;
 }
 
 .GameImg{
-    height: 50%;
+    display: flex;
+    justify-self: flex-start;
+    width: 500px;
+    height: 48%;
+}
+
+.GameImg img{
+    width: 80%;
+    height: 100%;
 }
 
 .GameStory{
+    display: flex;
+    flex-direction: column;
+    justify-self: flex-end;
     background-color: blue;
-    height: 50%;
+    height: 48%;
 }
 
 .GameMenu{
