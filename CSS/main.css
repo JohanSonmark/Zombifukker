@@ -1,0 +1,49 @@
+
+
+
+nav{
+    background-color: olivedrab;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+}
+
+nav ul li{
+    padding: 5px 15px 5px 15px;
+    list-style: none;
+}
+
+nav ul li a{
+    color: black;
+}
+
+
+.GameBorde{
+    display: flex;
+    flex-direction: row;
+    height: 400px;
+    padding: 20px;
+}
+
+.GameImgStory{
+    width: 70%;
+    padding: 0 5px 0 0;
+}
+
+.GameImg{
+    background-color: #6c6f76;
+    height: 50%;
+
+}
+
+.GameStory{
+    background-color: blue;
+    height: 50%;
+}
+
+.GameMenu{
+    background-color: coral;
+    width: 30%;
+}
