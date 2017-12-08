@@ -1,4 +1,5 @@
-   var gameState;
+$(document).ready(function(){
+var gameState;
 
    if (!gameState){
       gameState = {
@@ -29,5 +30,5 @@
 
    drawPage();
 
-
+});
 
