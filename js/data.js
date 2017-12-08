@@ -18,12 +18,11 @@ var zombieFakker = {
             "instructions to find the different safe zones follows. You quickly start to pack your rucksack<br>"+
             "as you listens to the radio.",
         options: [{text:"Next", to:"rucksack"}]
-    }
+    },
     rucksack: {
         title: "Rucksack",
-        img: "Images/Rucksack.jpg"
+        img: "Images/Rucksack.jpg",
         bread: "Of all items you have gathered from the cabin only a few will fit the bag so choose wisely.",
-        options: [{text:"Knife", to:knife},{text:"Rifle", to:rifle}
-        ]
+        options: [{text:"Start over", to:"beginning"}]
     }
 };
