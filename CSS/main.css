@@ -24,6 +24,7 @@ nav ul li a{
     display: flex;
     flex-direction: row;
     height: 400px;
+    max-width: 1280px;
     padding: 20px;
     border: 2px solid black;
     outline: #4CAF50 solid 10px;
@@ -32,27 +33,28 @@ nav ul li a{
 }
 
 .GameImgStory{
-
+    display: flex;
+    flex-direction: column;
     width: 70%;
     padding: 0 5px 0 0;
 }
 
 .GameImg{
     display: flex;
-    justify-self: flex-start;
-    width: 500px;
+    justify-content: center;
+    width: 100%;
     height: 48%;
+    padding: 0 0 15px 0;
 }
 
 .GameImg img{
-    width: 80%;
+    width: 100%;
     height: 100%;
 }
 
 .GameStory{
     display: flex;
     flex-direction: column;
-    justify-self: flex-end;
     background-color: blue;
     height: 48%;
 }
@@ -67,6 +69,8 @@ nav ul li a{
  }
 
 .GameMenu ul li{
+    display: flex;
+    flex-direction: column;
     margin: 5px 5px 25px 20px;
     padding: 5px 5px 5px 5px;
     list-style: none;
@@ -78,7 +82,7 @@ nav ul li a{
 
     text-align: center;
     text-decoration: none;
-    display: inline-block;
+
     font-size: 16px;
 
 }
