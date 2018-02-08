@@ -1,0 +1,96 @@
+main{
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+}
+
+
+
+.loginBox{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid green;
+    border-radius: 8px;
+    background: black;
+    width: 20%;
+    height: 350px;
+}
+
+.loginBox h2{
+    border-bottom: 4px solid green;
+    color: white;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.loginBox label{
+    color: white;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.loginBox input{
+    margin:0 0 10px 20px;
+    width: 80%;
+}
+
+.loginBox button{
+    width: 50%;
+    margin: 10px 20px;
+}
+
+.loginBox a{
+    color: white;
+    text-align: left;
+    margin: 0 0 10px 20px;
+    font-size: 15px;
+}
+
+
+
+
+
+.newsBox{
+    width: 80%;
+    background: black;
+    border: 2px solid green;
+    border-radius: 8px;
+    margin-left: 20px;
+    padding-bottom: 20px;
+}
+
+.newsBox h2{
+    color: white;
+    text-align: left;
+    margin-left: 30px;
+    margin-bottom: 10px;
+    border-left: 8px solid green;
+}
+
+.articleBox{
+    display: flex;
+    flex-direction: row;
+}
+
+article{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 20px;
+    background: black;
+    border: 2px solid green;
+    border-radius: 8px;
+    padding: 10px;
+    width: 40%;
+}
+
+article h3{
+    color: white;
+    border-bottom: 2px solid red;
+    text-align: left;
+}
+
+article p{
+    color: white;
+    text-align: left;
+}

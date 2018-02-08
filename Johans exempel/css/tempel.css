@@ -1,0 +1,86 @@
+body{
+    background: url('../Images/body-gb-gray-black.jpg')  no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    text-align: center;
+    margin: auto;
+    width: 1000px;
+}
+
+.navTop{
+    margin-top: 20px;
+    border: 2px solid green;
+    border-radius: 8px;
+    background: black;
+}
+
+h1{
+    color: green;
+    font-size: 80px;
+    text-shadow: 5px 5px white;
+    margin-top: 20px;
+}
+
+h2{
+    font-size: 40px;
+}
+
+h3{
+    font-size: 30px;
+    margin: 0;
+}
+
+p{
+    font-size: 30px;
+    margin: 2px;
+}
+
+nav{
+
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 15px;
+}
+
+nav ul li{
+    list-style: none;
+    margin: auto;
+}
+
+nav ul li a{
+    color: green;
+    margin: 5px 10px;
+    font-size: 30px;
+}
+
+h1, h2, h3, a, label, button{
+    font-family: 'Creepster', cursive;
+
+    /*
+    Minde passande
+    font-family: 'Shadows Into Light', cursive;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-family: 'Amatic SC', cursive;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Butcherman', cursive;
+    font-family: 'Architects Daughter', cursive;
+    font-family: 'VT323', monospace;
+    font-family: 'Gochi Hand', cursive;
+
+    Dom var nice =)
+    font-family: 'Rock Salt', cursive;
+    font-family: 'Covered By Your Grace', cursive;
+    font-family: 'Reenie Beanie', cursive;
+    font-family: 'Sue Ellen Francisco', cursive;
+
+
+    */
+}
+p{
+    font-family: 'Reenie Beanie', cursive;
+}
